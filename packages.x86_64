@@ -284,8 +284,10 @@ microsoft-edge-stable-bin
 mpv
 
 #Build Tools
+asp
 autoconf
 automake
+bat
 bc
 binutils
 bison
@@ -295,6 +297,7 @@ clang
 cmake
 cpio
 curl
+devtools
 dtc
 extra-cmake-modules
 fakeroot
