@@ -67,6 +67,7 @@ alias pacunlock="sudo rm /var/lib/pacman/db.lck"
 alias pacremove="sudo pacman -R"
 alias pacautoremove="sudo pacman -Rns"
 
+export PATH="$PATH:~/depot_tools"
 export PATH=~/bin:$PATH
 #export PATH=~/toolchains/proton-clang/bin:$PATH
 export USE_CCACHE=1
