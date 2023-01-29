@@ -19,6 +19,7 @@ sudo pacman --noconfirm -U root/ttf-ms-win11-auto/ttf-ms-win11-auto-10.0.22621.3
 sudo pacman --noconfirm -U root/video-downloader-git/video-downloader-git-0.10.10.r3.g7383bcc-1-any.pkg.tar.lzo && rm -rf root/video-downloader-git
 sudo pacman --noconfirm -U root/zramd/zramd-0.9.2-1-any.pkg.tar.lzo && rm -rf root/zramd
 sudo pacman --noconfirm -U root/alg-cala-config-xanmod/alg-cala-config-xanmod-22.07-4-any.pkg.tar.lzo && rm -rf root/alg-cala-config-xanmod
+sudo pacman --noconfirm -U root/newflasher-git/newflasher-git-194-1-x86_64.pkg.tar.lzo && rm -rf root/newflasher-git
 sudo sed -i -e '$aNoDisplay=true' /usr/share/applications/avahi-discover.desktop
 sudo sed -i -e '$aNotShowIn=Gnome;KDE;' /usr/share/applications/avahi-discover.desktop
 sudo sed -i -e '$aNoDisplay=true' /usr/share/applications/bssh.desktop
